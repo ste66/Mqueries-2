@@ -1,0 +1,32 @@
+@media only screen and (max-width: 480px) {
+    .mobile {
+            font-family: 'Romanesco', cursive;
+            font-size: 30px;
+    }
+}
+
+/* tablets: from 481px to 769px */
+@media only screen and (min-width: 481px) and (max-width: 769px) {
+    .tablet {
+        font-size: 40px;
+        color: coral;
+        }
+ }
+
+/* Desktops: from 770px to 1024px */
+@media only screen and (min-width: 770px) {
+     .desktop {
+        font-size: 40px;
+        text-decoration: underline;
+     }
+     .desktop::first-letter {
+        font-weight: bold;
+        color: red;
+      }
+}  
+      
+
+        
+       
+        
+  
